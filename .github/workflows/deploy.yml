@@ -21,5 +21,5 @@ jobs:
           port: ${{ secrets.PORT }}
           key: ${{ secrets.SSHKEY }}
           script: |
-            cd /opt/bitnami/projects/my
+            cd /opt/bitnami/projects/me
             npm install && npm run build
