@@ -46,16 +46,16 @@ const services = [
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "ReactJs Developer",
     icon: mobile,
-  },
-  {
-    title: "Laravel Expert",
-    icon: backend,
   },
   {
     title: "Blockchain Integrations",
     icon: creator,
+  },
+  {
+    title: "Laravel Expert",
+    icon: backend,
   },
 ];
 
@@ -116,55 +116,45 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Comearth",
+    title: "SDE-2",
+    company_name: "RECLATION TECHNOLOGIES PVT. LTD",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "August 2021 - Till Now",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Coordinate with management to understated user story implement the logic and functionality accordingly in agile environment.",
+      "Provide technical assistance to team members and distribution of work.",
+      "Promote the use of code abstraction and reuse in all projects involved which result in increased software development efficiency and overall high-quality code.",
+      "Prioritize and handled day to day tasks, ensuring high level of productivity and progression.",
+      "Cooperating and communication with other team members and prepared a variety of different written communication, reports and documents to ensure smooth management operations.",
+      "Tech Discussions with clients for their requirements and use cases"
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "SDE-1",
+    company_name: "TOSH INNOVATIONS PVT. LTD",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "September 2020 – August 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Communicate with stakeholders to make sure goals are clear and the vision is aligned with business objective and worked accordingly.",
+      "Worked in agile environment for a smooth transition.",
+      "Develop and maintain strong relationship and keep client informed and engaged throughout the entire project life cycle.",
+      "Contribute to the planning and execution of each sprint.",
+      "Managing the project’s every aspect from starting to end.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "SELF EMPLOYED",
+    company_name: "DOCENT COMPUTER TECHNOLOGY PVT LTD",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "July 2017 – September 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Managing the project’s every aspect from starting to end.",
+      "Worked in agile environment for a smooth transition.",
+      "Managing project lifecycle to provide smooth experience to end users",
+      "Managing the project’s every aspect from starting to end."
     ],
   },
 ];
