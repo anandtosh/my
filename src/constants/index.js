@@ -16,9 +16,9 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
-  tesla,
-  shopify,
+  reclation,
+  tosh,
+  selfemp,
   carrent,
   jobit,
   tripguide,
@@ -118,7 +118,7 @@ const experiences = [
   {
     title: "SDE-2",
     company_name: "RECLATION TECHNOLOGIES PVT. LTD",
-    icon: starbucks,
+    icon: reclation,
     iconBg: "#383E56",
     date: "August 2021 - Till Now",
     points: [
@@ -133,7 +133,7 @@ const experiences = [
   {
     title: "SDE-1",
     company_name: "TOSH INNOVATIONS PVT. LTD",
-    icon: tesla,
+    icon: tosh,
     iconBg: "#E6DEDD",
     date: "September 2020 – August 2021",
     points: [
@@ -147,7 +147,7 @@ const experiences = [
   {
     title: "SELF EMPLOYED",
     company_name: "DOCENT COMPUTER TECHNOLOGY PVT LTD",
-    icon: shopify,
+    icon: selfemp,
     iconBg: "#383E56",
     date: "July 2017 – September 2020",
     points: [

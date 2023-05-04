@@ -21,41 +21,29 @@ const Contact = () => {
     setForm({ ...form, [name]: value });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const onSubmit = async (event) => {
+    event.preventDefault();
     setLoading(true);
+    const formData = new FormData(event.target);
 
-    emailjs
-      .send(
-        "service_r0jcplm",
-        "template_1t76uxq",
-        {
-          form_name: form.name,
-          to_name: "Liron",
-          from_email: form.email,
-          to_email: "contact@mail.com",
-          message: form.message,
-        },
-        "Jqq9AvwIuSjoMiA5c"
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+    formData.append("access_key", "c74a2683-2164-479b-b412-763c7ced533d");
 
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        },
-        (error) => {
-          setLoading(false);
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
 
-          console.log(error);
-          alert("Something went wrong.");
-        }
-      );
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then((res) => res.json());
+
+    if (res.success) {
+      setLoading(false);
+      alert("Thank you. I will get back to you as soon as possible.");
+    }
   };
 
   return (
@@ -71,7 +59,7 @@ const Contact = () => {
 
         <form
           ref={formRef}
-          onSubmit={handleSubmit}
+          onSubmit={onSubmit}
           className="mt-12 flex flex-col gap-8"
         >
           <label className="flex flex-col">

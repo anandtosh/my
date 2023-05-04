@@ -29,8 +29,14 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import reclation from "./company/logo-reclation.jpg"
+import tosh from "./company/tosh.png"
+import selfemp from "./company/self-employed.png"
 
 export {
+  selfemp,
+  tosh,
+  reclation,
   logo,
   backend,
   creator,
