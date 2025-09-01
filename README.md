@@ -231,3 +231,6 @@ This section used to mention useful resources and libraries that used in 3D Port
 <p align="center">
 <img src="https://github.com/ladunjexa/Threejs_3D_Portfolio/blob/main/public/logo.png" height="auto" width="10%" />
 </p>
+
+
+<!-- Security scan triggered at 2025-09-02 01:23:16 -->
